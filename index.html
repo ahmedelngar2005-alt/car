@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RossoStore | Home</title>
+    <!-- bootstrap V-5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="header-nav">
+      <div class="container">
+        <div class="logo">ROSSO<span>STORE</span></div>
+        <ul>
+          <li>
+            <a class="active" href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="models.html">Models</a>
+          </li>
+          <li>
+            <a href="store.html">Store</a>
+          </li>
+          <li>
+            <a href="custom.html">Custom</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="badge">Luxury Performance Store</span>
+          <h1>Drive The Power <span>Of Red</span> Performance</h1>
+          <p>
+            A responsive sports <span>car store </span>website built with pure HTML and CSS,
+            with a clean luxury black and red direction.
+          </p>
+          <div class="buttons">
+            <a class="btn" href="models.html">Explore Models</a>
+            <a class="btn btn-outline" href="contact.html">Book A Visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Cars Section -->
+    <section class="section dark">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Cars</h2>
+          <p>Three premium cars displayed using responsive CSS grid cards.</p>
+        </div>
+        <div class="grid-3">
+          <div class="car-card">
+            <img
+              src="./images/mercedes-1.jpg"
+              alt="Red sport car"
+            />
+            <div class="card-content">
+              <span class="badge">Coupe</span>
+              <h3>Rosso Veloce</h3>
+              <p>Sharp coupe design with luxury interior and strong performance.</p>
+              <div class="price">$310,000</div>
+            </div>
+          </div>
+          <div class="car-card">
+            <img
+              src="./images/mercedes-2.jpg"
+              alt="Sport car"
+            />
+            <div class="card-content">
+              <span class="badge">Spider</span>
+              <h3>Rosso Spider X</h3>
+              <p>Open-top driving experience with premium racing feeling.</p>
+              <div class="price">$365,000</div>
+            </div>
+          </div>
+          <div class="car-card">
+            <img
+              src="./images/mercedes-3.jpg"
+              alt="Luxury car"
+            />
+            <div class="card-content">
+              <span class="badge">Track</span>
+              <h3>Rosso Track GT</h3>
+              <p>Track-inspired car with aggressive design and premium comfort.</p>
+              <div class="price">$420,000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cars-store-section -->
+    <section class="cars-store-section">
+  <section class="cars-slider-section">
+    <div id="carsStoreCarousel" class="carousel slide cars-slider" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carsStoreCarousel"
+          data-bs-slide-to="0"
+          class="active rounded-circle"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#carsStoreCarousel"
+          data-bs-slide-to="1"
+          class="rounded-circle"
+          aria-label="Slide 2"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#carsStoreCarousel"
+          data-bs-slide-to="2"
+          class="rounded-circle"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active cars-slider-item">
+          <img src="./images/slider-1.jpg" class="d-block w-100" alt="luxury car" />
+
+          <div class="cars-slider-layer"></div>
+
+          <p class="cars-slider-text">
+            Drive your dream car today with premium quality, modern design, and trusted service.
+          </p>
+        </div>
+
+        <div class="carousel-item cars-slider-item">
+          <img src="./images/slider-2.jpg" class="d-block w-100" alt="sport car" />
+
+          <div class="cars-slider-layer"></div>
+
+          <p class="cars-slider-text">
+            Explore luxury, sport, and family cars with flexible prices and amazing offers.
+          </p>
+        </div>
+
+        <div class="carousel-item cars-slider-item">
+          <img src="./images/slider-3.jpg" class="d-block w-100" alt="modern car" />
+
+          <div class="cars-slider-layer"></div>
+
+          <p class="cars-slider-text">
+            Find the perfect car for your lifestyle with a smooth and reliable buying experience.
+          </p>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carsStoreCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carsStoreCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- cars-gallery-section text-center -->
+  <section class="cars-gallery-section text-center">
+    <h2 class="fw-light text-uppercase fs-4">our car showroom</h2>
+
+    <p class="cars-gallery-main-text lead">
+      Exclusive <span class="fw-bold">car store,</span> the perfect place to find luxury,
+      sport, and family cars with trusted service and amazing prices.
+    </p>
+
+    <div class="cars-gallery d-flex flex-wrap flex-row-reverse">
+      <img class="cars-gallery-img" src="./images/car-slider-1.jpg" alt="luxury car" />
+
+      <div class="cars-gallery-content d-flex flex-column align-items-center justify-content-center">
+        <h3 class="fw-light text-uppercase fs-5">luxury cars</h3>
+
+        <p class="fw-bold fs-4">
+          Modern luxury cars with elegant design and advanced features
+        </p>
+
+        <p>
+          Explore our collection of high-quality cars selected carefully to give you comfort,
+          safety, and style.
+        </p>
+
+        <a class="text-black text-decoration-none text-uppercase" href="#">
+          Read More
+        </a>
+      </div>
+
+      <img class="cars-gallery-img" src="./images/car-slider-2.jpeg" alt="sport car" />
+
+      <div class="cars-gallery-content d-flex flex-column align-items-center justify-content-center">
+        <h3 class="fw-light text-uppercase fs-5">sport cars</h3>
+
+        <p class="fw-bold fs-4">
+          Powerful performance for people who love speed and style
+        </p>
+
+        <p>
+          Choose from sporty models with strong engines, bold looks, and an exciting
+          driving experience.
+        </p>
+
+        <a class="text-black text-decoration-none text-uppercase" href="#">
+          Read More
+        </a>
+      </div>
+
+      <img class="cars-gallery-img" src="./images/car-slider-3.jpeg" alt="family car" />
+
+      <div class="cars-gallery-content d-flex flex-column align-items-center justify-content-center">
+        <h3 class="fw-light text-uppercase fs-5">family cars</h3>
+
+        <p class="fw-bold fs-4">
+          Comfortable family cars made for daily use and long trips
+        </p>
+
+        <p>
+          Find reliable cars with spacious interiors, smart technology, and practical
+          features for your family.
+        </p>
+
+        <a class="text-black text-decoration-none text-uppercase" href="#">
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
+</section> 
+    <!-- Statistics Section -->
+    <section class="section dark">
+      <div class="container">
+        <div class="grid-4">
+          <div class="card info-card">
+            <div class="stat-number">25+</div>
+            <h3>Cars</h3>
+            <p>Premium models in store.</p>
+          </div>
+          <div class="card info-card">
+            <div class="stat-number">12</div>
+            <h3>Models</h3>
+            <p>Different luxury categories.</p>
+          </div>
+          <div class="card info-card">
+            <div class="stat-number">8</div>
+            <h3>Colors</h3>
+            <p>Custom exterior options.</p>
+          </div>
+          <div class="card info-card">
+            <div class="stat-number">24/7</div>
+            <h3>Support</h3>
+            <p>Customer service available.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+ 
+    
+    <!-- Showroom Section -->
+    <section class="section">
+      <div class="container grid-2">
+        <div class="image-box">
+          <img
+            src="./images/bugatii.avif"
+            alt="Car showroom"
+          />
+        </div>
+        <div class="text-box">
+          <h2>Luxury Showroom <span>Experience</span></h2>
+          <p>
+            This store is designed like a premium car brand website with simple
+            code structure, clear sections, responsive grids, and easy navigation
+            between pages.
+          </p>
+          <ul class="feature-list">
+            <li>Responsive layout for mobile, tablet, and desktop</li>
+            <li>Separated HTML pages linked together</li>
+            <li>One shared CSS file for the full website</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ready To Build Your Dream <span>Car?</span></h2>
+          <p>
+            Choose your model, customize your finish, and book a private showroom visit.
+          </p>
+          <div class="buttons center">
+            <a class="btn" href="custom.html">Start Customizing</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h3 class="logo">ROSSO<span>STORE</span></h3>
+          <p class="footer-text">Luxury cars store concept.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="models.html">Models</a>
+          <a href="store.html">Store</a>
+          <a href="custom.html">Custom</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
